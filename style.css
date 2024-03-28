@@ -9,6 +9,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
+  text-align: center; /* Center text for all elements by default */
 }
 
 header {
@@ -18,6 +19,8 @@ header {
 
 nav ul {
   list-style-type: none;
+  padding: 0; /* Remove padding to center list items */
+  display: inline-block; /* Align the block itself to center */
 }
 
 nav ul li {
@@ -71,6 +74,7 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
+  justify-content: center; /* Center grid items horizontally */
 }
 
 .features li {
