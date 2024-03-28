@@ -41,19 +41,20 @@ nav ul {
   padding: 0;
   margin: 0; /* Reset margin to center the list */
   display: block; /* Changed from inline-block to block for proper centering */
+  background
 }
 
 nav ul li {
   display: inline-block;
   margin-right: 20px;
+  background-color: #333;
 }
 
 nav ul li a {
   color: #fff;
   text-decoration: none;
+  background-color: #333;
 }
-
-/* ... (rest of your CSS) ... */
 
 /* Make sure to remove any unnecessary 'text-align: center;' from nested elements since it's already set on body */
 
