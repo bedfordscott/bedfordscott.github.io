@@ -33,6 +33,7 @@ header, nav ul, .cta-button, .learn-more, footer {
 header {
   background-color: #333;
   padding: 20px;
+  text-align: center;
 }
 
 nav ul {
@@ -79,6 +80,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  text-align: center;
 }
 
 .features {
@@ -126,5 +128,6 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
