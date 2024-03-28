@@ -12,6 +12,7 @@ body {
   padding: 20px;
   background: #ecf0f1; /* Example background color for contrast */
   align-items: center; /* Centers text within the containers */
+  text-align: center;
 }
 
 .container {
