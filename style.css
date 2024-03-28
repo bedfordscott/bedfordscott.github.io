@@ -15,14 +15,14 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 800px; /* Set a max-width for comfortable reading */
-  margin: auto; /* Center the container */
-  background: #f0f0f0; /* Light grey background for the containers */
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the containers */
-  margin-bottom: 20px; /* Adds space between sections */
-  text-align: left; /* Centers text within the containers */
+  width: 100%;                /* Use the full width of the containing element (likely <body>) */
+  max-width: 800px;           /* Maximum width of the container */
+  margin: auto;               /* Center the container horizontally within the containing element */
+  background: #f0f0f0;        /* Light grey background for the container */
+  padding: 20px;              /* Padding inside the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+  margin-bottom: 20px;        /* Space below the container */
+  text-align: left;           /* Align text to the left within the container */
 }
 
 header, nav ul, .cta-button, .learn-more, footer {
