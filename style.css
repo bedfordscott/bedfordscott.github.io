@@ -11,7 +11,7 @@ body {
   color: #333;
   padding: 20px;
   background: #ecf0f1; /* Example background color for contrast */
-  text-align: center; /* Centers text within the containers */
+  align-items: center; /* Centers text within the containers */
 }
 
 .container {
