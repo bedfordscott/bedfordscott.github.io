@@ -9,7 +9,18 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  text-align: center; /* Center text for all elements by default */
+  padding: 0 20px; /* Add padding to the body to prevent content from touching the edges */
+}
+
+/* Align text to the left for better readability, center alignment for headers */
+.container, .hero, .features, footer {
+  text-align: left; /* Default text alignment */
+  max-width: 1200px; /* Standardize text lengths */
+  margin: auto; /* Center the containers */
+}
+
+header, nav ul, .cta-button, .learn-more, footer {
+  text-align: center; /* Keep center alignment for specific elements */
 }
 
 header {
@@ -19,8 +30,8 @@ header {
 
 nav ul {
   list-style-type: none;
-  padding: 0; /* Remove padding to center list items */
-  display: inline-block; /* Align the block itself to center */
+  padding: 0;
+  display: inline-block;
 }
 
 nav ul li {
@@ -35,8 +46,7 @@ nav ul li a {
 
 .hero {
   background-color: #f4f4f4;
-  padding: 100px 0;
-  text-align: center;
+  padding: 100px 20px; /* Adjust padding for smaller screens */
 }
 
 .hero h1 {
@@ -60,8 +70,7 @@ nav ul li a {
 }
 
 .features {
-  padding: 80px 0;
-  text-align: center;
+  padding: 80px 20px; /* Adjust padding for smaller screens */
 }
 
 .features h2 {
@@ -74,7 +83,6 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
-  justify-content: center; /* Center grid items horizontally */
 }
 
 .features li {
@@ -105,6 +113,5 @@ nav ul li a {
 footer {
   background-color: #333;
   color: #fff;
-  text-align: center;
   padding: 20px;
 }
