@@ -88,6 +88,25 @@ footer {
   border-radius: 5px;
 }
 
+.button {
+  display: inline-block;
+  background-color: #007BFF; /* Primary button color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Top & Bottom, Left & Right padding */
+  text-decoration: none; /* Remove underline from link */
+  font-weight: bold; /* Make text bold */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+
+  /* Add more styling as needed */
+}
+
+.button:hover, .button:focus {
+  background-color: #0056b3; /* Darker shade for hover state */
+  color: white;
+  text-decoration: none; /* Ensure text remains without underline on hover */
+}
+
 .features {
   padding: 80px 20px; /* Adjust padding for smaller screens */
 }
