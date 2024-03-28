@@ -22,7 +22,7 @@ body {
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the containers */
   margin-bottom: 20px; /* Adds space between sections */
-  text-align: center; /* Centers text within the containers */
+  text-align: left; /* Centers text within the containers */
 }
 
 header, nav ul, .cta-button, .learn-more, footer {
