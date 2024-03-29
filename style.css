@@ -52,13 +52,12 @@ nav ul li {
 }
 
 nav ul li a {
-  display: inline-block; /* Makes sure the padding and border are applied correctly */
-  padding: 10px 20px; /* Adds some padding inside the buttons */
-  text-decoration: none; /* Removes the underline from links */
-  color: #333; /* Sets the text color */
-  border: 2px solid #ecf0f1; /* Adds a border around the buttons */
-  border-radius: 5px; /* Optional: Adds rounded corners to the buttons */
-  transition: background-color 0.3s; /* Smooth transition for hover effects */
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 /* Make sure to remove any unnecessary 'text-align: center;' from nested elements since it's already set on body */
