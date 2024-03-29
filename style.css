@@ -51,15 +51,13 @@ nav ul li {
   transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-nav ul li a.nav-button {
-  display: inline-block;
-  background-color: #fff; /* Primary button color */
-  color: #333; /* Text color */
-  padding: 10px 20px; /* Top & Bottom, Left & Right padding */
-  text-decoration: none; /* Remove underline from link */
-  font-weight: bold; /* Make text bold */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+nav ul li a {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 /* Make sure to remove any unnecessary 'text-align: center;' from nested elements since it's already set on body */
@@ -107,7 +105,17 @@ footer {
   transition: background-color 0.3s; /* Smooth transition for hover effect */
 
   /* Add more styling as needed */
-
+}
+.nav-button {
+  display: inline-block;
+  background-color: #fff; /* Primary button color */
+  color: #333; /* Text color */
+  padding: 10px 20px; /* Top & Bottom, Left & Right padding */
+  text-decoration: none; /* Remove underline from link */
+  font-weight: bold; /* Make text bold */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
   
 .button:hover, .button:focus {
   background-color: #0056b3; /* Darker shade for hover state */
@@ -167,4 +175,3 @@ footer {
   color: #fff;
   padding: 20px;
 }
-
