@@ -48,6 +48,7 @@ nav ul li {
   display: inline-block;
   margin-right: 20px;
   background-color: #ecf0f1;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 nav ul li a {
@@ -57,7 +58,7 @@ nav ul li a {
   color: #333; /* Sets the text color */
   border: 2px solid #ecf0f1; /* Adds a border around the buttons */
   border-radius: 5px; /* Optional: Adds rounded corners to the buttons */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
 }
 
 /* Make sure to remove any unnecessary 'text-align: center;' from nested elements since it's already set on body */
@@ -91,6 +92,7 @@ footer {
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 .button {
