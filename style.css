@@ -31,7 +31,7 @@ body {
 }
 
 .container p {
-  margin-bottom: 20px;        /* Space below the container */
+  margin-top: 20px; 
 }
 
 .container li {
