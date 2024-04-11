@@ -14,10 +14,6 @@ body {
   text-align: center; /* Default text alignment for the whole page */
 }
 
-p {
-  margin-bottom: 20px; /* Adds 20 pixels of space below each paragraph */
-}
-
 .container {
   width: 100%;                /* Full width of the containing element (likely <body>) */
   max-width: 800px;           /* Maximum width of the container */
@@ -32,6 +28,10 @@ p {
 .container img {
   width: 100%;
   height: auto;
+}
+
+.container p {
+  margin-bottom: 20px;        /* Space below the container */
 }
 
 /* Additional specific center-aligned elements if necessary */
